@@ -1,0 +1,2 @@
+# Snakemake Pipeline for Long-Read FASTQ Analysis
+FASTQ file is produced by sequencing machines, and composed of prety amount of short read sequences and quality scores which indicates how reliably each base is read. During sequencing, several issues may occur such as sequencing errors, too long or too short reads, GC bias and other technical problems. Therefore, before downstream analyses it is important to check the quality of the data. 
