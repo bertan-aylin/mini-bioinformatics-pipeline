@@ -1,1 +1,2 @@
-
+#Introduction
+Raw sequencing data must be evaluated before downstream analyses. Sequencing experiments can introduce technical problems, sequencing errors or biases that may affect reliability of the data. Therefore, quality control (QC) was performed to determine the overall characteristics of the dataset. For this purpose, the pipeline reads the FASTQ file, calculates read-level statistics and generates summary plots used for visualization the distribution of sequencing metrics. These metrics are composed of read length, GC content and mean quality score.
