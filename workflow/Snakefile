@@ -1,0 +1,13 @@
+rule all:
+    input:
+        "results/read_stats.csv"
+
+rule read_stats:
+    input:
+        "data/barcode77.fastq"
+    output:
+        "results/read_stats.csv"
+    shell:
+        """
+        python scripts/read_stats.py {input} {output}
+        """
